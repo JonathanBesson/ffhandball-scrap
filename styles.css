@@ -1,0 +1,18 @@
+.seance {
+  position: relative;
+}
+.seance .wp-block-cover {
+  position: relative;
+  z-index: 1;
+}
+.seance .wp-block-buttons {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 5;
+}
